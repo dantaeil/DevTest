@@ -5,7 +5,7 @@ import "./Post.scss";
 const Post = () => {
   return (
     <div className="container-fluid">
-      <div className="row no-gutters">
+      <div className="row">
         <div className="col-6">
           <div className="container post">
             <div className="row">
@@ -22,7 +22,7 @@ const Post = () => {
               </div>
             </div>
             <div className="row link">
-              <div className="col">&gt;LoremIpsum</div>
+              <div className="col">&gt; LoremIpsum</div>
             </div>
           </div>
         </div>
