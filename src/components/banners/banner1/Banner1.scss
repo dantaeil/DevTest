@@ -1,0 +1,29 @@
+.banner1 {
+  background-image: url("../../../assets/banner-1.jpg");
+  background-size: cover;
+  padding-left: 20%;
+  padding-top: 19%;
+  height: 700px;
+}
+
+.bannertitle {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #613476;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.bannerbutton {
+  margin-top: 2%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Avenir";
+  width: 190px;
+  height: 60px;
+  background-color: #ff7218;
+}
