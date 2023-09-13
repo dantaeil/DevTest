@@ -3,7 +3,7 @@ import Hero from "./components/hero/Hero";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Hero />
     </div>
   );
