@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../assets/img-1.jpg";
 import "./Post.scss";
 
 const Post = () => {
