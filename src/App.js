@@ -5,6 +5,7 @@ import Banner1 from "./components/banners/banner1/Banner1";
 import Buttons from "./components/buttons/Buttons";
 import Banner2 from "./components/banners/banner2/Banner2";
 import Feedback from "./components/feedback/Feedback";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Buttons />
       <Banner2 />
       <Feedback />
+      <Footer />
     </div>
   );
 }

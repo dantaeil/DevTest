@@ -1,10 +1,12 @@
-.img {
-  background-image: url("../../assets/img-1.jpg");
-  background-size: cover;
-  height: 600px;
+.post {
+  .img {
+    background-image: url("../../assets/img-1.jpg");
+    background-size: cover;
+    height: 600px;
+  }
 }
 
-.post {
+.postcontent {
   padding-left: 30%;
   padding-top: 20%;
   padding-right: 10%;
