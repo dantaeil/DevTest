@@ -1,0 +1,27 @@
+.mySwiper {
+  padding: 10%;
+  .swipercaption {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #613476;
+    font-weight: 700;
+    font-family: "Open Sans";
+  }
+  .swipertext {
+    margin-top: 5%;
+    font-size: 16px;
+    color: #161616;
+    font-weight: 400;
+    font-family: "Open Sans";
+    -webkit-text-stroke: 1px #979797;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #613476;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffc718;
+}

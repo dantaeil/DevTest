@@ -1,12 +1,12 @@
-import { Carousel } from "bootstrap";
 import React from "react";
 import "./Feedback.scss";
+import Carousel from "./carousel/Carousel";
 
 const Feedback = () => {
   return (
     <div className="container feedback">
       <div className="row">
-        <div className="col">
+        <div className="col-5">
           <div className="container">
             <div className="row">
               <div className="col caption">
@@ -26,7 +26,9 @@ const Feedback = () => {
             </div>
           </div>
         </div>
-        <div className="col">CAROUSEl</div>
+        <div className="col-7">
+          <Carousel />
+        </div>
       </div>
     </div>
   );
