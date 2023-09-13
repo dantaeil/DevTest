@@ -1,3 +1,52 @@
 .hero {
   background-image: url("../../assets/hero.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+.logowhite {
+  width: 249px;
+  height: 45px;
+  margin-top: 2%;
+}
+
+.welcometo {
+  font-size: 72px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 800;
+  -webkit-text-stroke: 4px #ffffff;
+}
+
+.rooster {
+  font-size: 64px;
+  letter-spacing: 5px;
+  line-height: 55px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.button {
+  margin-top: 20%;
+  width: 172px;
+  height: 55px;
+  background-color: #ac5fd0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
