@@ -1,18 +1,23 @@
-.icon {
-  width: 100px;
-  height: 99px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .sbutton {
   text-align: center;
-}
-
-.buttontext {
-  font-size: 22px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #3e3e3e;
-  font-weight: 700;
-  font-family: "Open Sans";
+  .iconcontainer {
+    border: 1px solid #ac5fd0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    .icon {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .buttontext {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3e3e3e;
+    font-weight: 700;
+    font-family: "Open Sans";
+  }
 }

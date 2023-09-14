@@ -34,18 +34,18 @@ const Buttons = () => {
         <div className="col">
           <div className="container buttonscontainer">
             <div className="row">
-              <div className="col">
+              <div className="col-6">
                 <Button icon={expertise} text="LOREM" />
               </div>
-              <div className="col">
+              <div className="col-6">
                 <Button icon={hygiene} text="LOREM IPSUM" />
               </div>
             </div>
             <div className="row buttonssecond">
-              <div className="col">
+              <div className="col-6">
                 <Button icon={lab} text="LOREM IPSUM" />
               </div>
-              <div className="col">
+              <div className="col-6">
                 <Button icon={retention} text="LOREM" />
               </div>
             </div>
