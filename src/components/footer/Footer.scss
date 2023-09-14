@@ -10,5 +10,9 @@
     width: 43px;
     height: 43px;
     margin: 10px;
+    transition: transform 0.3s;
+  }
+  .img:hover {
+    transform: scale(1.1);
   }
 }
