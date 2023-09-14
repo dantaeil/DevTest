@@ -11,8 +11,12 @@ const Footer = () => {
       </div>
       <div className="row justify-content-center">
         <div className="col-md-auto align-self-center">
-          <img src={instagram} alt="Instagram" className="img" />
-          <img src={facebook} alt="Facebook" className="img" />
+          <a href="https://www.instagram.com">
+            <img src={instagram} alt="Instagram" className="img" />
+          </a>
+          <a href="https://www.facebook.com">
+            <img src={facebook} alt="Facebook" className="img" />
+          </a>
         </div>
       </div>
     </div>

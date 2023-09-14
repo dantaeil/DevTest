@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Hero.scss";
 import logowhite from "../../assets/logo-white.svg";
+import $ from "jquery";
 
 const Hero = () => {
+  useEffect(() => {
+    $(".welcometo").addClass("show");
+    $(".rooster").addClass("show");
+  });
   return (
     <div className="container-fluid hero">
       <div className="row">
