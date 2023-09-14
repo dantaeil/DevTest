@@ -5,7 +5,7 @@ const Post = () => {
   return (
     <div className="container-fluid post">
       <div className="row">
-        <div className="col-6">
+        <div className="col-lg-6">
           <div className="container postcontent">
             <div className="row">
               <div className="col title">LOREM IPSUM</div>
@@ -25,7 +25,7 @@ const Post = () => {
             </div>
           </div>
         </div>
-        <div className="col-6 img"></div>
+        <div className="col-lg-6 img"></div>
       </div>
     </div>
   );

@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <div className="container footer">
       <div className="row justify-content-center">
-        <div className="col-md-auto align-self-center followus">Follow Us:</div>
+        <div className="col-auto align-self-center followus">Follow Us:</div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-md-auto align-self-center">
+        <div className="col-auto align-self-center">
           <a href="https://www.instagram.com">
             <img src={instagram} alt="Instagram" className="img" />
           </a>

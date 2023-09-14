@@ -6,7 +6,7 @@ const Feedback = () => {
   return (
     <div className="container feedback">
       <div className="row">
-        <div className="col-5">
+        <div className="col-lg-5 visible-xs">
           <div className="container">
             <div className="row">
               <div className="col caption">
@@ -17,16 +17,16 @@ const Feedback = () => {
             </div>
             <div className="row">
               <div className="col">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-7">
+        <div className="col-lg-7">
           <Carousel />
         </div>
       </div>

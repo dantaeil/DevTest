@@ -17,18 +17,18 @@ const Hero = () => {
       </div>
       <div className="content">
         <div className="row justify-content-center">
-          <div className="col-md-auto align-self-center">
+          <div className="col-auto align-self-center">
             <div className="welcometo">WELCOME TO</div>
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-auto">
+          <div className="col-auto">
             <div className="rooster">Rooster Grin</div>
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-md-auto">
-            <button class="button">BUTTON BUTTON</button>
+            <button className="button">BUTTON BUTTON</button>
           </div>
         </div>
       </div>

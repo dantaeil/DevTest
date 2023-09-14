@@ -5,17 +5,17 @@ const Banner2 = () => {
   return (
     <div className="container-fluid banner2">
       <div className="row">
-        <div className="col bannertitle">LOREM IPSUM</div>
+        <div className="col offset-md-8 bannertitle">LOREM IPSUM</div>
       </div>
       <div className="row">
-        <div className="col bannertext">
+        <div className="col offset-md-8 bannertext">
           Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna
           est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede
           ut ante, in viverra eros dictum nisl ligula.
         </div>
       </div>
       <div className="row">
-        <div className="col">
+        <div className="col offset-md-8 ">
           <button className="bannerbutton">BUTTON BUTTON</button>
         </div>
       </div>
